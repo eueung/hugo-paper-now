@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Site Title | Hugo Paper-Now</title>
-    <link>https://eueung.github.io/hugo-sp-minimal/index.xml</link>
+    <link>https://eueung.github.io/hugo-paper-now/index.xml</link>
     <description>Recent content on Site Title | Hugo Paper-Now</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://eueung.github.io/hugo-sp-minimal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://eueung.github.io/hugo-paper-now/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A box chart</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/figure/cell-culture-figure/</link>
+      <link>https://eueung.github.io/hugo-paper-now/figure/cell-culture-figure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/figure/cell-culture-figure/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://eueung.github.io/hugo-sp-minimal/data/cell-culture/box-chart.png&#34;&gt;&lt;/p&gt;
+      <guid>https://eueung.github.io/hugo-paper-now/figure/cell-culture-figure/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://eueung.github.io/hugo-paper-now/data/cell-culture/box-chart.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Abstract</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/section/abstract/</link>
+      <link>https://eueung.github.io/hugo-paper-now/section/abstract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/section/abstract/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/section/abstract/</guid>
       <description>&lt;p&gt;This is the first paragraph of the abstract.&lt;/p&gt;
 
 &lt;p&gt;This is another paragraph of the abstract.&lt;/p&gt;
@@ -32,30 +32,30 @@
     
     <item>
       <title>Acknowledgments</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/section/acknowledgments/</link>
+      <link>https://eueung.github.io/hugo-paper-now/section/acknowledgments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/section/acknowledgments/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/section/acknowledgments/</guid>
       <description>&lt;p&gt;Our gratitude belongs to these people.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A visualisation</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/figure/phyllotaxis/</link>
+      <link>https://eueung.github.io/hugo-paper-now/figure/phyllotaxis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/figure/phyllotaxis/</guid>
-      <description>&lt;iframe src=&#34;https://eueung.github.io/hugo-sp-minimal/data/phyllotaxis/&#34; width=&#34;1400&#34; height=&#34;1000&#34; allowfullscreen&gt;&lt;/iframe&gt;
+      <guid>https://eueung.github.io/hugo-paper-now/figure/phyllotaxis/</guid>
+      <description>&lt;iframe src=&#34;https://eueung.github.io/hugo-paper-now/data/phyllotaxis/&#34; width=&#34;1400&#34; height=&#34;1000&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     
     <item>
       <title>Introduction</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/section/introduction/</link>
+      <link>https://eueung.github.io/hugo-paper-now/section/introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/section/introduction/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/section/introduction/</guid>
       <description>&lt;p&gt;The background to the work.&lt;/p&gt;
 
 &lt;p&gt;This paragraph contains one species, a &lt;em&gt;Hippopotamus amphibius&lt;/em&gt;.&lt;/p&gt;
@@ -78,10 +78,10 @@
     
     <item>
       <title>References</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/references/</link>
+      <link>https://eueung.github.io/hugo-paper-now/references/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/references/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/references/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;First Author, Second Author. 2014. &lt;a href=&#34;https://example.com/articles/1&#34;&gt;My First Article&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;First Author, Second Author. 2015. &lt;a href=&#34;https://example.com/articles/2&#34;&gt;My Second Article&lt;/a&gt;.&lt;/li&gt;
@@ -91,10 +91,10 @@
     
     <item>
       <title>A table of the results</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/figure/cell-culture-table/</link>
+      <link>https://eueung.github.io/hugo-paper-now/figure/cell-culture-table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/figure/cell-culture-table/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/figure/cell-culture-table/</guid>
       <description>&lt;table class=&#34;table table-bordered&#34;&gt;
 &lt;thead&gt;
     &lt;tr&gt;
@@ -114,10 +114,10 @@
     
     <item>
       <title>Methods</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/section/methods/</link>
+      <link>https://eueung.github.io/hugo-paper-now/section/methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/section/methods/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/section/methods/</guid>
       <description>
 
 &lt;p&gt;How the experiment was performed.&lt;/p&gt;
@@ -130,20 +130,20 @@
     
     <item>
       <title>Results</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/section/results/</link>
+      <link>https://eueung.github.io/hugo-paper-now/section/results/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/section/results/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/section/results/</guid>
       <description>&lt;p&gt;The results of the experiment. See &lt;a href=&#34;#figure-1&#34;&gt;Figure 1&lt;/a&gt; and &lt;a href=&#34;#figure-2&#34;&gt;Figure 2&lt;/a&gt;, as well as &lt;a href=&#34;#table-1&#34;&gt;Table 1&lt;/a&gt;, for details.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Discussion</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/section/discussion/</link>
+      <link>https://eueung.github.io/hugo-paper-now/section/discussion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/section/discussion/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/section/discussion/</guid>
       <description>&lt;p&gt;Discussion of the results and implications.&lt;/p&gt;
 
 &lt;p&gt;This paragraph contains one species, a &lt;em&gt;Hippopotamus amphibius&lt;/em&gt;.&lt;/p&gt;
@@ -152,10 +152,10 @@
     
     <item>
       <title>Acknowledgments</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/acknowledgments/</link>
+      <link>https://eueung.github.io/hugo-paper-now/acknowledgments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/acknowledgments/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/acknowledgments/</guid>
       <description>&lt;p&gt;Our gratitude belongs to these people.&lt;/p&gt;
 </description>
     </item>

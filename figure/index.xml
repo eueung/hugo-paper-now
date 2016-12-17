@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Figure-rsses on Site Title | Hugo Paper-Now</title>
-    <link>https://eueung.github.io/hugo-sp-minimal/figure/index.xml</link>
+    <link>https://eueung.github.io/hugo-paper-now/figure/index.xml</link>
     <description>Recent content in Figure-rsses on Site Title | Hugo Paper-Now</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://eueung.github.io/hugo-sp-minimal/figure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://eueung.github.io/hugo-paper-now/figure/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A box chart</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/figure/cell-culture-figure/</link>
+      <link>https://eueung.github.io/hugo-paper-now/figure/cell-culture-figure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/figure/cell-culture-figure/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://eueung.github.io/hugo-sp-minimal/data/cell-culture/box-chart.png&#34;&gt;&lt;/p&gt;
+      <guid>https://eueung.github.io/hugo-paper-now/figure/cell-culture-figure/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://eueung.github.io/hugo-paper-now/data/cell-culture/box-chart.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A visualisation</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/figure/phyllotaxis/</link>
+      <link>https://eueung.github.io/hugo-paper-now/figure/phyllotaxis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/figure/phyllotaxis/</guid>
-      <description>&lt;iframe src=&#34;https://eueung.github.io/hugo-sp-minimal/data/phyllotaxis/&#34; width=&#34;1400&#34; height=&#34;1000&#34; allowfullscreen&gt;&lt;/iframe&gt;
+      <guid>https://eueung.github.io/hugo-paper-now/figure/phyllotaxis/</guid>
+      <description>&lt;iframe src=&#34;https://eueung.github.io/hugo-paper-now/data/phyllotaxis/&#34; width=&#34;1400&#34; height=&#34;1000&#34; allowfullscreen&gt;&lt;/iframe&gt;
 </description>
     </item>
     
     <item>
       <title>A table of the results</title>
-      <link>https://eueung.github.io/hugo-sp-minimal/figure/cell-culture-table/</link>
+      <link>https://eueung.github.io/hugo-paper-now/figure/cell-culture-table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://eueung.github.io/hugo-sp-minimal/figure/cell-culture-table/</guid>
+      <guid>https://eueung.github.io/hugo-paper-now/figure/cell-culture-table/</guid>
       <description>&lt;table class=&#34;table table-bordered&#34;&gt;
 &lt;thead&gt;
     &lt;tr&gt;
