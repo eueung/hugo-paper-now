@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+    {{ .Hugo.Generator }}
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico">
+
+    {{ "<!-- web components -->" | safeHTML }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.6.1/webcomponents.min.js"></script>
+    <link rel="import" href="https://peerj.github.io/research-article/research-article.html">
+
+    {{ "<!-- Stylesheets -->" | safeHTML }}
+    <link rel="stylesheet" media="screen" href="https://peerj.github.io/paper-themes/paper-now/screen.css" no-shim>
+    <link rel="stylesheet" media="print" href="https://peerj.github.io/paper-themes/paper-now/print.css" no-shim>
+</head>

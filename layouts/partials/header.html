@@ -1,0 +1,46 @@
+<header>
+  {{ with .Site.Params.articleTitle }}
+    <meta itemprop="name" content="{{ . }}">
+    <h1 id="{{ . | urlize }}">{{ . | markdownify }}</h1>
+  {{ end }}
+  {{ with .Site.Params.publishDate }}
+    <div class="article-date">
+    <time itemprop="datePublished" datetime="{{ . }}">{{ dateFormat "January 2, 2006" . }}</time>
+    </div>
+  {{ end }}
+  
+  <div id="authors">
+  {{ range .Site.Params.authors }}
+   <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person" itemid="{{ .orcid }}">
+   {{ if and (isset . "orcid") (ne .orcid "") }}<a href="https://orcid.org/{{ .orcid }}" itemprop="sameAs" target="_blank" data-orcid="{{ .orcid }}" title="View this author's ORCID profile"></a> {{ end }}
+   <span itemprop="name">
+     {{ if and (isset . "url") (ne .url "") }}<a href="{{ .url }}"itemprop="url">{{ end }}
+     {{ .name }}
+     {{ if and (isset . "url") (ne .url "") }}</a>{{ end }}
+   </span>
+
+   {{ if and (isset . "email") (ne .email "") }}<meta itemprop="email" content="{{ .email }}"/>{{ end }}
+   {{ $authorid := .id }}
+   {{ range $.Site.Params.affiliations }}
+     {{ $affname := .name }}
+     {{ range .members }}
+       {{ if eq $authorid . }}
+         <meta itemprop="affiliation" itemscope itemtype="http://schema.org/Organization" itemid="affiliation-{{ $affname | urlize}}"/>
+       {{ end }}
+     {{ end }}
+   {{ end }}
+   </span>
+  {{ end }}
+  </div>
+
+  {{ range .Data.Pages.ByWeight }}
+    {{ if eq .Type "abstract" }}
+      <section id="section-abstract">
+      <h2 id="abstract">Abstract</h2>
+      <p>{{ .Content | markdownify }}</p>
+      </section>
+    {{ end }}
+  {{ end }}
+
+</header>
+

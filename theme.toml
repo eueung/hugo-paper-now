@@ -1,0 +1,17 @@
+name = "Paper-Now"
+license = "MIT"
+licenselink = "https://github.com/eueung/hugo-paper-now/blob/master/LICENSE"
+description = "Paper-Now Scientific Article Theme for Hugo"
+homepage = "https://github.com/eueung/hugo-paper-now"
+tags = ["journal", "scientific article", "google analytics", "custom themes", "single page"]
+features = ["single page", "scientific article" ]
+min_version = 0.17
+
+[author]
+    name = "Eueung Mulyana"
+    homepage = "https://eueung.github.io/"
+
+[original]
+    author = "PeerJ"
+    homepage = "https://github.com/PeerJ"
+    repo = "https://github.com/PeerJ/paper-now"

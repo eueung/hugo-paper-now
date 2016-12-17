@@ -1,0 +1,114 @@
+<footer>
+
+<div id="affiliations"><h2>Affiliations</h2>
+{{ range .Site.Params.affiliations }} 
+  <div itemscope itemtype="http://schema.org/Organization" itemid="affiliation-{{ .name | urlize }}">
+
+  <h3> {{ if and (isset . "url") (ne .url "") }} <a href="{{ .url }}" itemprop="url"> {{ end }}
+  <span class="inline-list">
+    <span itemprop="department">{{ .department }}</span>
+    <span itemprop="name">{{ .name }}</span>
+  </span>
+  {{ if and (isset . "url") (ne .url "") }}</a>{{ end }} </h3>
+  <div itemprop="location" class="affiliation-location">{{ .location }}</div>
+  <div class="inline-list">
+  {{ range .members }} 
+    {{ $authorid := . }} 
+    {{ range where $.Site.Params.authors "id" $authorid }}<span>{{ .name }}</span>{{ end }}
+  {{ end }}
+  </div>
+
+  </div>
+{{ end }}
+</div>
+
+
+<div id="corresponding-author"><h2>Corresponding Author</h2>
+ <div class="inline-list">
+ {{ range .Site.Params.authors }}
+   {{ if and (isset . "email") (ne .email "") }}
+   <span><a href="mailto:{{ .email }}">{{ .name }}</a></span>
+   {{ end }}
+ {{ end }} 
+ </div>
+</div>
+
+<div id="contributions"><h2>Contributions</h2>
+{{ range .Site.Params.contributions }} 
+  <div itemprop="contributor" itemscope itemtype="http://schema.org/Role">
+  <h3 itemprop="name"><a href="{{ .url }}" target="_blank" itemprop="url roleName">{{ .name }}</a></h3>
+  <div class="inline-list">
+  {{ range .contributors }} 
+    {{ $authorid := . }} 
+    {{ range where $.Site.Params.authors "id" $authorid }}
+       <span itemprop="contributor" itemscope itemtype="http://schema.org/Person" itemid="{{ .orcid }}">
+       {{ .name }}</span>
+    {{ end }}
+  {{ end }}
+  </div>
+  </div>
+{{ end }}
+</div>
+
+<div id="funding"><h2>Funding</h2>
+{{ range .Site.Params.funders }}
+  {{ $varfunder := . }} 
+
+  {{ range .awards }}
+  <div itemprop="funding" itemscope itemtype="http://schema.org/PayAction"><div itemprop="agent">
+    <h3 itemprop="name">{{ if and (isset $varfunder "url") (ne $varfunder.url "") }} <a href="{{ $varfunder.url }}"  target="_blank" itemprop="url"> {{ end }}
+      {{ $varfunder.name }}
+    {{ if and (isset $varfunder "url") (ne $varfunder.url "") }}</a>{{ end }}
+    ({{ .name }})
+    </h3>
+
+    <div class="inline-list">
+    {{ range .recipients }} 
+      {{ $authorid := . }} 
+      {{ range where $.Site.Params.authors "id" $authorid }}<span itemprop="recipient" itemscope itemtype="http://schema.org/Person" itemid="{{ .orcid }}">{{ .name }}</span>{{ end }}
+    {{ end }}
+    </div>
+ 
+  </div></div>
+  {{ end }}
+
+  
+{{ end }}
+</div>                
+                    
+                    
+<div id="figures"><h2>Figures &amp; Tables</h2>
+{{ range .Data.Pages.ByWeight }}
+  {{ if eq .Type "figure" }}
+    <figure id="{{ .Params.label | urlize }}">
+    <figcaption>
+      <p><a href="{{ .Permalink }}"  class="figure-link"> <strong>{{ .Params.label }}</strong></a>: {{ .Title }}</p>
+      <p>{{ .Description | markdownify }}</p>
+    </figcaption>
+    <div class="figure-wrap">
+      {{ $permalink := .Permalink }}
+      {{ with .Params.image }} <a href="{{ $permalink }}"  class="figure-link"><img src="{{ $.Site.BaseURL }}{{ . }}"></a>{{ end }}
+      {{ if eq .Params.renderall true }} {{ .Content }} {{ end }}
+    </div>
+    </figure>
+  {{ end }}
+{{ end }}
+</div>
+
+{{ range .Data.Pages.ByWeight }}
+  {{ if or (eq .Type "ack") (eq .Type "reference") }}
+     <div id="{{ .Title | urlize }}">
+       <h2>{{ .Title }}</h2>
+       {{ .Content }}
+     </div>
+  {{ end }}
+{{ end }}
+
+<div><h2 style="font-size: 0.9em;">
+    <a href="https://github.com/eueung/hugo-paper-now">Hugo Paper-Now</a> Theme | 
+    Based on <a href="https://github.com/PeerJ/paper-now">PeerJ/paper-now</a>
+</h2></div>
+
+</footer>
+
+

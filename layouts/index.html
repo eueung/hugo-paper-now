@@ -1,0 +1,17 @@
+{{ partial "head" . }}
+<body unresolved><article is="research-article">
+
+{{ partial "header" . }}
+
+{{ range .Data.Pages.ByWeight }}
+    {{ if eq .Type "section" }}
+      <section>
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+      </section> 
+    {{ end }}
+{{ end }}
+
+{{ partial "footer" . }}
+{{ partial "js" . }}
+</article></body></html>
